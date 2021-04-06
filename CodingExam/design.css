@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+}
+div {
+    display: inline-block;
+}
+#table {
+    display: block;
+    margin-top: 20px;   
+    border: 2px solid #002266;
+}
+tr:nth-child(even){
+    background-color: #cccccc;
+}
+tr:hover {
+    background-color: gray;
+}
+tr td{
+    color: black;
+}
+th {
+    font-weight: bold;
+    font-size: larger;
+    font-family: 'Times New Roman';
+    background-color: black;
+    color: white;
+    padding: 30px;
+    
+}
+td {
+    font-size: medium;
+    font-family: Arial;
+}
+th, td {
+    border: 2px solid #002266;
+    padding:  20px;
+}
