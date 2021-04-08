@@ -9,14 +9,13 @@ div {
     margin-top: 20px;   
     border: 2px solid #002266;
 }
-tr:nth-child(even){
-    background-color: #cccccc;
-}
+
 tr:hover {
     background-color: gray;
 }
 tr td{
     color: black;
+    background-color: #cccccc;
 }
 th {
     font-weight: bold;
@@ -24,8 +23,7 @@ th {
     font-family: 'Times New Roman';
     background-color: black;
     color: white;
-    padding: 30px;
-    
+    padding: 30px;  
 }
 td {
     font-size: medium;
@@ -34,4 +32,17 @@ td {
 th, td {
     border: 2px solid #002266;
     padding:  20px;
+
+}
+td:nth-child(1) {
+    inline-size: 40px;
+}
+td:nth-child(2) {
+    inline-size: 40px;
+}
+td:nth-child(3) {
+    inline-size: 300px;
+}
+td:nth-child(4) {
+    inline-size: 1020px;
 }
